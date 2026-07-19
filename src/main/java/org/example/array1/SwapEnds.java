@@ -1,0 +1,12 @@
+package org.example.array1;
+
+public class SwapEnds {
+    public int[] swapEnds(int[] nums) {
+        int first = nums[0];
+        int last = nums[nums.length-1];
+        nums[0] = last;
+        nums[nums.length-1] = first;
+        return nums;
+    }
+
+}
