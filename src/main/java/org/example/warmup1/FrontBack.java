@@ -2,8 +2,8 @@ package org.example.warmup1;
 
 public class FrontBack {
     public static void main(String[] args) {
-        FrontBack obj1 = new FrontBack();
-        System.out.println(obj1.frontBack("code"));
+        FrontBack obj = new FrontBack();
+        System.out.println(obj.frontBack("code"));
     }
     public String frontBack(String str) {
         if (str.length()<2){
